@@ -3,11 +3,7 @@
 Created on Thu May  1 13:22:12 2025
 
 @author: burkez, pattersonb
-
-C:/Users/pattersonb/project/countdown.wav
-C:/Users/pattersonb/project/output_file2.wav
 """
-#must do "pip install ffmpeg",  then "pip install pydub" should work.
 import os
 from pydub import AudioSegment
 from pydub.effects import low_pass_filter, compress_dynamic_range
@@ -229,3 +225,4 @@ def main():
 
 if __name__ == "__main__":
   main()
+
